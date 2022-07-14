@@ -154,6 +154,12 @@
                 android:layout_height="40dp"
                 android:textAllCaps="false"
                 android:text="@string/recycleview"/>
+            <Button
+                android:id="@+id/glideView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/glide"/>
         </LinearLayout>
     </ScrollView>
 

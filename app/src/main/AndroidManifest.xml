@@ -92,6 +92,8 @@
         <!--EventBus使用-->
         <!--RecycleView使用-->
         <activity android:name="com.jsyiyi.javacode.RecyclerView.RecyclerViewActivity"/>
+        <!--Glide使用-->
+        <activity android:name="com.jsyiyi.javacode.Glide.GlideActivity"/>
         <!--静态注册广播接收器-->
         <receiver android:name="com.jsyiyi.javacode.BroadcastReceiver.WcyBroadcastReceiver"
             android:exported="false">
