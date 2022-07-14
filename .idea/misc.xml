@@ -27,6 +27,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_network.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_okhttp.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/activity_recycleview.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/activity_recyleview.xml" value="0.15942028985507245" />
         <entry key="app/src/main/res/layout/activity_reveal.xml" value="0.1598731884057971" />
         <entry key="app/src/main/res/layout/activity_scene.xml" value="0.1598731884057971" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.12590579710144928" />
@@ -43,6 +45,7 @@
         <entry key="app/src/main/res/layout/content_main.xml" value="0.1644021739130435" />
         <entry key="app/src/main/res/layout/item.xml" value="0.12182971014492754" />
         <entry key="app/src/main/res/layout/item_child_chapter.xml" value="0.12182971014492754" />
+        <entry key="app/src/main/res/layout/item_layout.xml" value="0.15942028985507245" />
         <entry key="app/src/main/res/layout/item_msg.xml" value="0.1644021739130435" />
         <entry key="app/src/main/res/layout/item_parent_chapter.xml" value="0.10520833333333333" />
         <entry key="app/src/main/res/layout/kotlin_main.xml" value="0.10520833333333333" />

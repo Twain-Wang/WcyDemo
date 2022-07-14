@@ -19,6 +19,7 @@ import com.jsyiyi.javacode.BroadcastReceiver.BroadcastReceiverActivity;
 import com.jsyiyi.javacode.BroadcastReceiver.WcyBroadcastReceiver;
 import com.jsyiyi.javacode.CardView.CardViewActivity;
 import com.jsyiyi.javacode.ExpandableListView.ExpandableListViewActivity;
+import com.jsyiyi.javacode.RecyclerView.RecyclerViewActivity;
 import com.jsyiyi.javacode.animation.AnimationActivity;
 import com.jsyiyi.javacode.animation.transitionanimation.TraActivity;
 import com.jsyiyi.javacode.asynctask.AsyncTaskActivity;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.cardView).setOnClickListener(this);
         findViewById(R.id.okhttpView).setOnClickListener(this);
         findViewById(R.id.eventbusView).setOnClickListener(this);
+        findViewById(R.id.recycleView).setOnClickListener(this);
 //        ClassMain classMain = new ClassMain();
 //        String aaa = classMain.TestDemo("测试1");
 //        System.out.println("MainActivity===="+aaa);
@@ -160,6 +162,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.eventbusView:   //handler使用打地鼠
                 Intent eventbusViewIntent = new Intent(this, EventBusActivity.class);
                 startActivity(eventbusViewIntent);
+                break;
+            case R.id.recycleView:   //RecycleView使用
+                Intent recycleViewIntent = new Intent(this, RecyclerViewActivity.class);
+                startActivity(recycleViewIntent);
                 break;
             default:
                 break;

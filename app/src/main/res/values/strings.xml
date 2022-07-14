@@ -45,4 +45,5 @@
     <string name="okhttp">OkHttp使用</string>
     <string name="action_sticky">Sticky</string>
     <string name="eventbus">EventBus使用(注意五种模式)</string>
+    <string name="recycleview">RecycleView使用</string>
 </resources>

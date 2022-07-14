@@ -148,6 +148,12 @@
                 android:layout_height="40dp"
                 android:textAllCaps="false"
                 android:text="@string/eventbus"/>
+            <Button
+                android:id="@+id/recycleView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/recycleview"/>
         </LinearLayout>
     </ScrollView>
 

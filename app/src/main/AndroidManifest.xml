@@ -23,7 +23,7 @@
             android:name="com.jsyiyi.kotlin.test.KotlinMain"
             >
         </activity>
-        <activity android:name="com.jsyiyi.javacode.webview.WebViewActivity" android:exported="true">
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -90,6 +90,8 @@
         <activity android:name="com.jsyiyi.javacode.eventbus.EventBusActivity"/>
         <activity android:name="com.jsyiyi.javacode.eventbus.StickyActivity"/>
         <!--EventBus使用-->
+        <!--RecycleView使用-->
+        <activity android:name="com.jsyiyi.javacode.RecyclerView.RecyclerViewActivity"/>
         <!--静态注册广播接收器-->
         <receiver android:name="com.jsyiyi.javacode.BroadcastReceiver.WcyBroadcastReceiver"
             android:exported="false">
