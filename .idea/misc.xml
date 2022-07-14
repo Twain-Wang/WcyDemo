@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="aidldemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.23333333333333334" />
         <entry key="app/src/main/res/drawable/edge.xml" value="0.21944444444444444" />
         <entry key="app/src/main/res/drawable/ic_autorenew_black_24dp.xml" value="0.21927083333333333" />
         <entry key="app/src/main/res/drawable/ic_close_black_24dp.xml" value="0.23333333333333334" />
@@ -23,6 +24,8 @@
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.1598731884057971" />
         <entry key="app/src/main/res/layout/activity_frame_animation.xml" value="0.1598731884057971" />
         <entry key="app/src/main/res/layout/activity_glide.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/activity_goods_detail.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/activity_greendao.xml" value="0.15942028985507245" />
         <entry key="app/src/main/res/layout/activity_handler.xml" value="0.10677083333333333" />
         <entry key="app/src/main/res/layout/activity_internal.xml" value="0.12771739130434784" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -44,6 +47,7 @@
         <entry key="app/src/main/res/layout/activity_view_animation.xml" value="0.1598731884057971" />
         <entry key="app/src/main/res/layout/activity_webview.xml" value="0.1644021739130435" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/goods_item.xml" value="0.15942028985507245" />
         <entry key="app/src/main/res/layout/item.xml" value="0.12182971014492754" />
         <entry key="app/src/main/res/layout/item_child_chapter.xml" value="0.12182971014492754" />
         <entry key="app/src/main/res/layout/item_layout.xml" value="0.15942028985507245" />

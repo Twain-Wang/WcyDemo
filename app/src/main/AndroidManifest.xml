@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
         tools:ignore="ProtectedPermissions" />
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:requestLegacyExternalStorage="true"
         android:icon="@mipmap/ic_launcher"
@@ -94,6 +95,8 @@
         <activity android:name="com.jsyiyi.javacode.RecyclerView.RecyclerViewActivity"/>
         <!--Glide使用-->
         <activity android:name="com.jsyiyi.javacode.Glide.GlideActivity"/>
+        <!--GreenDao使用-->
+        <activity android:name="com.jsyiyi.javacode.GreenDao.GreenDaoActivity"/>
         <!--静态注册广播接收器-->
         <receiver android:name="com.jsyiyi.javacode.BroadcastReceiver.WcyBroadcastReceiver"
             android:exported="false">

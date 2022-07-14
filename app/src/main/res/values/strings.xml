@@ -47,4 +47,5 @@
     <string name="eventbus">EventBus使用(注意五种模式和代码混淆)</string>
     <string name="recycleview">RecycleView使用</string>
     <string name="glide">使用Glide加载网络图片</string>
+    <string name="greendao">使用GreenDao进行数据库操作</string>
 </resources>

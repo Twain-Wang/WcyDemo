@@ -20,6 +20,7 @@ import com.jsyiyi.javacode.BroadcastReceiver.WcyBroadcastReceiver;
 import com.jsyiyi.javacode.CardView.CardViewActivity;
 import com.jsyiyi.javacode.ExpandableListView.ExpandableListViewActivity;
 import com.jsyiyi.javacode.Glide.GlideActivity;
+import com.jsyiyi.javacode.GreenDao.GreenDaoActivity;
 import com.jsyiyi.javacode.RecyclerView.RecyclerViewActivity;
 import com.jsyiyi.javacode.animation.AnimationActivity;
 import com.jsyiyi.javacode.animation.transitionanimation.TraActivity;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.eventbusView).setOnClickListener(this);
         findViewById(R.id.recycleView).setOnClickListener(this);
         findViewById(R.id.glideView).setOnClickListener(this);
+        findViewById(R.id.greenDaoView).setOnClickListener(this);
 //        ClassMain classMain = new ClassMain();
 //        String aaa = classMain.TestDemo("测试1");
 //        System.out.println("MainActivity===="+aaa);
@@ -172,6 +174,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.glideView:   //RecycleView使用
                 Intent glideViewIntent = new Intent(this, GlideActivity.class);
                 startActivity(glideViewIntent);
+                break;
+            case R.id.greenDaoView:   //RecycleView使用
+                Intent greenDaoViewIntent = new Intent(this, GreenDaoActivity.class);
+                startActivity(greenDaoViewIntent);
                 break;
             default:
                 break;

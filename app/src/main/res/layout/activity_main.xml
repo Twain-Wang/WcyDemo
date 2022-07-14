@@ -160,6 +160,12 @@
                 android:layout_height="40dp"
                 android:textAllCaps="false"
                 android:text="@string/glide"/>
+            <Button
+                android:id="@+id/greenDaoView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/greendao"/>
         </LinearLayout>
     </ScrollView>
 
