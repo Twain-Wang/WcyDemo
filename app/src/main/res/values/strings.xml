@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TestKotlin</string>
+    <string name="base_anim">基础动画</string>
+    <string name="test_pro">属性动画</string>
+    <string name="view_anim">视图动画</string>
+    <string name="anim_frame">逐帧动画</string>
+    <string name="tra_anim">转场动画</string>
+    <string name="test_reveal">揭露动画</string>
+    <string name="test_scene">多视图转场</string>
+    <string name="test_activity">Activity跳转</string>
+    <string name="title">长白山脉</string>
+    <string name="address">吉林省东南部地区</string>
+    <string name="info">长白山脉是松花江、图们江和鸭绿江的发源地。是中国满族的发祥地和满族文化圣山。
+        长白山脉区域总面积1964平方千米，核心区758平方千米，长白山系的最高峰是朝鲜境内的将军峰，海拔2749米。
+        中国境内最高峰白云峰，海拔2691米，是中国东北的最高峰。狭义的长白山位于吉林省东南部长白山脉的主峰。
+        广义的长白山是中国辽宁、吉林、黑龙江三省东部山地以及俄罗斯远东和朝鲜半岛诸多余脉的总称。
+        长白山在生态、生物、地质和历史等诸多方面都具有突出的普遍价值和卓越的自然品质以及丰富的文化内涵。
+    </string>
+    <string name="pic" translatable="false">pic</string>
+    <string name="icon" translatable="false">icon</string>
+    <string name="cus_view">自定义视图</string>
+    <string name="surfaceview">SurfaceView</string>
+    <string name="touch_view">事件分发</string>
+    <string name="storage_view">数据存储</string>
+    <string name="sqlite">sqlite</string>
+    <string name="expandablelistview">ExpandableListView</string>
+    <string name="broadcastreceiver">广播BroadcastReceiver</string>
+    <string name="newwork">网络操作</string>
+    <string name="handlerdownload">handler使用下载</string>
+    <string name="handler">handler使用</string>
+    <string name="begin_game">点击开始</string>
+    <string name="handler_diglett">handler使用打地鼠</string>
+    <string name="click_download">点击下载</string>
+    <string name="download_text">准备下载</string>
+    <string name="downloading">下载中</string>
+    <string name="download_finish">下载完成</string>
+    <string name="download_fail">下载失败</string>
+    <string name="asynctask">AsyncTask使用</string>
+    <string name="service">Service使用</string>
+    <string name="aidl_app">AIDL两个app通信（见demo）</string>
+    <string name="contentprovider_app">ContentProvider两个app数据操作（见demo）</string>
+    <string name="socketandhttp_demo">SocketAndHttp通信（见demo）</string>
+    <string name="cardview">CardView使用</string>
+    <string name="screen">屏幕适配（见教学视频）</string>
+    <string name="okhttp">OkHttp使用</string>
+    <string name="action_sticky">Sticky</string>
+    <string name="eventbus">EventBus使用(注意五种模式)</string>
+</resources>

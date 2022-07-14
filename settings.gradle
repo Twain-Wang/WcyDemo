@@ -1,0 +1,136 @@
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        jcenter() // Warning: this repository is going to shut down soon
+//        maven { url 'https://jitpack.io' }
+//    }
+//}
+def isGradle7 = gradle.gradleVersion.startsWith("7")
+if (isGradle7) {
+
+    /*Gradle7下的子项目仓库声明*/
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+        repositories {
+            google()
+            mavenCentral()
+            maven { url 'https://jitpack.io' }
+        }
+    }
+
+}
+rootProject.name = "TestKotlin"
+include ':app'
+include ':app2'
+include ':aidldemo'
+include ':servicedemo'
+include ':wcy'
+include ':lib-common'
+include ':lib-http'
+
+/*需要声明build.gradle中声明的插件仓库和依赖*/
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io'}
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$KT_VERSION"       // Kotlin支持1.3.20+
+        classpath "com.android.tools.build:gradle:$AGP_VERSION"                 // AGP支持3.4.0+
+        /*P2M*/
+        classpath "com.github.wangdaqi77.P2M:p2m-plugin:$P2M_VERSION"           // P2M插件
+    }
+}
+
+apply plugin: "p2m-android"
+
+p2m{
+    app{
+        include(":wcy"){
+            projectDir = new File("./wcy")
+        }
+        dependencies {
+            module("Account")
+            module("Main")
+        }
+    }
+    app{
+        include(":app2"){
+            projectDir = new File("./app2")
+        }
+        dependencies {
+            module("Home")
+            module("User")
+        }
+    }
+    module("Home"){
+        include(":module-home")
+        dependencies {
+            module("User")
+        }
+
+        groupId = "com.repo"
+        artifactId = "home"
+        versionName = "0.0.1"
+
+        useRemote = false
+        runApp = false
+    }
+    module("User"){
+        include(":module-user")
+
+        groupId = "com.repo"
+        artifactId = "user"
+        versionName = "0.0.1"
+
+        useRemote = false
+        runApp = false
+    }
+    module("Account") {                     // 声明Account模块
+        include(":module-account")          // 声明project描述
+
+        groupId = "com.repo"                // 组，默认值模块名。用于发布模块到仓库或者使用仓库中的模块
+        artifactId = "account"              // 发布件id，默认值module-${小写的YourModuleName}。用于发布模块到仓库或者使用仓库中的模块
+        versionName = "0.0.1"               // 版本，默认值unspecified。用于发布模块到仓库或者使用仓库中的模块
+
+        useRemote = false                   // 使用远程仓库开关，默认false。true表示使用仓库，false表示使用源码
+        runApp = false                      // 运行app开关，默认值false，true表示可以运行app，false表示作为模块，applicationId等配置在./projectPath/build.gradle中的p2mRunAppBuildGradle{}
+    }
+
+    module("Main") {
+        include(":module-main")
+        dependencies {
+            module("Account")
+            module("Mall")
+        }
+
+        groupId = "com.repo"
+        versionName = "0.0.1"
+
+        useRemote = false
+        runApp = false
+    }
+
+    module("Mall") {
+        include(":module-mall")
+        dependencies {
+            module("Account")
+        }
+
+        groupId = "com.repo"
+        versionName = "0.0.1"
+
+        useRemote = false
+        runApp = false
+    }
+}
+
+
+include ':dataproviderdemo'
+include ':dataresoverdemo'
+include ':getdatafromsystemdemo'
+include ':imooc_sample'
+include ':udpdemo'

@@ -1,0 +1,8 @@
+<resources>
+
+
+    <style name="NoActionBarTheme" parent="Theme.Design.Light.NoActionBar">
+    </style>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="module-login.TestKotlin.Login" target="11" />
+      <module name="TestKotlin.Account" target="11" />
+      <module name="TestKotlin.aidldemo" target="11" />
+      <module name="TestKotlin.app" target="11" />
+      <module name="TestKotlin.app2" target="11" />
+      <module name="TestKotlin.dataproviderdemo" target="11" />
+      <module name="TestKotlin.dataresoverdemo" target="11" />
+      <module name="TestKotlin.getdatafromsystemdemo" target="11" />
+      <module name="TestKotlin.Home" target="11" />
+      <module name="TestKotlin.imooc_sample" target="11" />
+      <module name="TestKotlin.lib-common" target="11" />
+      <module name="TestKotlin.Login" target="11" />
+      <module name="TestKotlin.Main" target="11" />
+      <module name="TestKotlin.Mall" target="11" />
+      <module name="TestKotlin.module-home" target="11" />
+      <module name="TestKotlin.module-login" target="11" />
+      <module name="TestKotlin.module-user" target="11" />
+      <module name="TestKotlin.moudle-login" target="11" />
+      <module name="TestKotlin.servicedemo" target="11" />
+      <module name="TestKotlin.udpdemo" target="11" />
+      <module name="TestKotlin.User" target="11" />
+      <module name="TestKotlin.wcy" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

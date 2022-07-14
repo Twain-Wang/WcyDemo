@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidldemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app2" />
+            <option value="$PROJECT_DIR$/dataproviderdemo" />
+            <option value="$PROJECT_DIR$/dataresoverdemo" />
+            <option value="$PROJECT_DIR$/getdatafromsystemdemo" />
+            <option value="$PROJECT_DIR$/imooc_sample" />
+            <option value="$PROJECT_DIR$/lib-common" />
+            <option value="$PROJECT_DIR$/lib-http" />
+            <option value="$PROJECT_DIR$/module-account" />
+            <option value="$PROJECT_DIR$/module-home" />
+            <option value="$PROJECT_DIR$/module-main" />
+            <option value="$PROJECT_DIR$/module-mall" />
+            <option value="$PROJECT_DIR$/module-user" />
+            <option value="$PROJECT_DIR$/servicedemo" />
+            <option value="$PROJECT_DIR$/udpdemo" />
+            <option value="$PROJECT_DIR$/wcy" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
