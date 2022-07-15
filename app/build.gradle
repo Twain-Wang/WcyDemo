@@ -47,5 +47,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
     implementation 'org.greenrobot:greendao:3.3.0'
     implementation 'net.zetetic:android-database-sqlcipher:3.5.9@aar'
+//    implementation 'com.jakewharton:butterknife:10.2.3'
+//    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
 //    implementation 'com.github.getActivity:XXPermissions:13.2'
 }

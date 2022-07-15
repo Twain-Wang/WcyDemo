@@ -37,6 +37,7 @@ import com.jsyiyi.javacode.sqlite.SqliteActivity;
 import com.jsyiyi.javacode.storage.StorageActivity;
 import com.jsyiyi.javacode.surfaceview.SurfaceViewActivity;
 import com.jsyiyi.javacode.touchevent.TouchSystemActivity;
+import com.jsyiyi.javacode.webview.WebViewActivity;
 import com.jsyiyi.kotlin.test.KotlinMain;
 
 import java.security.MessageDigest;
@@ -75,6 +76,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.recycleView).setOnClickListener(this);
         findViewById(R.id.glideView).setOnClickListener(this);
         findViewById(R.id.greenDaoView).setOnClickListener(this);
+        findViewById(R.id.webView).setOnClickListener(this);
+        findViewById(R.id.butterknifeView).setOnClickListener(this);
 //        ClassMain classMain = new ClassMain();
 //        String aaa = classMain.TestDemo("测试1");
 //        System.out.println("MainActivity===="+aaa);
@@ -178,6 +181,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.greenDaoView:   //RecycleView使用
                 Intent greenDaoViewIntent = new Intent(this, GreenDaoActivity.class);
                 startActivity(greenDaoViewIntent);
+                break;
+            case R.id.webView:   //RecycleView使用
+                Intent webViewIntent = new Intent(this, WebViewActivity.class);
+                startActivity(webViewIntent);
                 break;
             default:
                 break;

@@ -97,6 +97,8 @@
         <activity android:name="com.jsyiyi.javacode.Glide.GlideActivity"/>
         <!--GreenDao使用-->
         <activity android:name="com.jsyiyi.javacode.GreenDao.GreenDaoActivity"/>
+        <!--WebView使用-->
+        <activity android:name="com.jsyiyi.javacode.webview.WebViewActivity"/>
         <!--静态注册广播接收器-->
         <receiver android:name="com.jsyiyi.javacode.BroadcastReceiver.WcyBroadcastReceiver"
             android:exported="false">

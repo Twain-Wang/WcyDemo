@@ -166,6 +166,18 @@
                 android:layout_height="40dp"
                 android:textAllCaps="false"
                 android:text="@string/greendao"/>
+            <Button
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/webview"/>
+            <Button
+                android:id="@+id/butterknifeView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/butterknife"/>
         </LinearLayout>
     </ScrollView>
 
