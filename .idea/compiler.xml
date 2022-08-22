@@ -7,9 +7,20 @@
       <module name="TestKotlin.aidldemo" target="11" />
       <module name="TestKotlin.app" target="11" />
       <module name="TestKotlin.app2" target="11" />
+      <module name="TestKotlin.cnapp" target="11" />
+      <module name="TestKotlin.cntestapp" target="11" />
+      <module name="TestKotlin.cntestapp2" target="11" />
+      <module name="TestKotlin.cnw-common" target="11" />
+      <module name="TestKotlin.cnw-course" target="11" />
+      <module name="TestKotlin.cnw-home" target="11" />
+      <module name="TestKotlin.cnw-login" target="11" />
+      <module name="TestKotlin.cnw-mine" target="11" />
+      <module name="TestKotlin.cnw-service" target="11" />
+      <module name="TestKotlin.cnw-study" target="11" />
       <module name="TestKotlin.dataproviderdemo" target="11" />
       <module name="TestKotlin.dataresoverdemo" target="11" />
       <module name="TestKotlin.getdatafromsystemdemo" target="11" />
+      <module name="TestKotlin.home" target="11" />
       <module name="TestKotlin.Home" target="11" />
       <module name="TestKotlin.imooc_sample" target="11" />
       <module name="TestKotlin.lib-common" target="11" />
